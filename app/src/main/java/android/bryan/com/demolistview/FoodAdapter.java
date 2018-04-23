@@ -51,8 +51,7 @@ public class FoodAdapter extends ArrayAdapter<Food> {
         // Set the image to star or nostar accordingly
         if(currentFood.isStar()) {
             ivStar.setImageResource(R.drawable.star);
-        }
-        else {
+        } else {
             ivStar.setImageResource(R.drawable.nostar);
         }
         // Return the nicely done up View to the ListView
